@@ -1,0 +1,1 @@
+<p>&copy;Confitería Duquesa | <a href="confiteriaduquesa@gmail.com">confiteríaduquesa@gmail.com  | 985691638  | C/Baldomero Alonso S/N  | 33930 | La Felguera, Langreo</a></p>
