@@ -37,7 +37,7 @@
             echo "<li>" .
                 "<h2>" . $row["nombre"] . "</h2>" .
                 "<p>" . $row["descripcion"] . "</p>" .
-                "<img src=" . $row["img"] . ">" .
+                "<img src=" . 'img/'.$row["img"] . ">" .
                 "</li>";
             }
         echo "</ul>";
@@ -49,12 +49,16 @@
     $conn->close();
 
     ?>
+    <div class="pinxos">
+    <h2>¡Tenemos una gran variedad de pinchos!</h2>
+    <img src="" alt="" id="secuencia2">
+    </div>
 
     </main>
     <footer>
         <?php include 'recursos/footer.php' ?>
     </footer>
-    
+    <script src="jsjs2.js"></script>
     
 </body>
 </html>

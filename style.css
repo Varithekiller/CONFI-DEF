@@ -209,7 +209,8 @@ h1::after{
 }
 
 .productos{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap:15px;
     padding-left: 0;
     flex-wrap:wrap;
@@ -219,6 +220,7 @@ h1::after{
     border-left:2px solid var(--c1);
     border-right:2px solid var(--c1);
     padding: 4px;
+    max-width: 420px;
     
 }
 
@@ -278,6 +280,21 @@ h1::after{
 }
 .apil div a{
     text-decoration:none;
+}
+
+
+#secuencia2{
+    max-width: 270px;
+}
+.pinxos{
+    display: flex;
+    gap:60px
+}
+.pinxos img{
+    justify-content: center;
+}
+.pinxos h2{
+    font-size: 40px;
 }
 
 

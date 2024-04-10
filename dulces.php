@@ -37,7 +37,7 @@
             echo "<li>" .
                 "<h2>" . $row["nombre"] . "</h2>" .
                 "<p>" . $row["descripcion"] . "</p>" .
-                "<img src=" . $row["img"] . ">" .
+                "<img src=" . 'img/'.$row["img"] . ">" .
                 "</li>";
             }
         echo "</ul>";

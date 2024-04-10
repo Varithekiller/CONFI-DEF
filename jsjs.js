@@ -2,9 +2,12 @@ let cont = 0;
 
 
 var fotos = [
-    "secuencia1.webp",
-    "secuencia2.jpg",
-    "secuencia3.jpg"
+    "variados.jpg",
+    "variados2.jpg",
+    "variados3.jpg",
+    "variados4.jpg",
+    "variados5.jpg",
+    "variados6.jpg"
   
 ];
 function cargar(){
